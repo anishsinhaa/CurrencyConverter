@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.Projects.CurrencyConverter.CurrencyConverter">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="853" height="530"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none" title-justification="4" title-position="1">
+      <font/>
+      <color color="-1805"/>
+    </border>
+    <children>
+      <component id="d91f9" class="javax.swing.JLabel" binding="title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Footlight MT Light" size="26" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Currency Converter"/>
+        </properties>
+      </component>
+      <component id="f8105" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="From"/>
+        </properties>
+      </component>
+      <component id="73a9f" class="javax.swing.JComboBox" binding="From">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="SELECT"/>
+            <item value="USD"/>
+            <item value="INR"/>
+            <item value="EUR"/>
+            <item value="HKD"/>
+            <item value="RUB"/>
+          </model>
+          <toolTipText value="SELECT"/>
+        </properties>
+      </component>
+      <component id="4984e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="To"/>
+        </properties>
+      </component>
+      <component id="997be" class="javax.swing.JComboBox" binding="To">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="SELECT"/>
+            <item value="USD"/>
+            <item value="INR"/>
+            <item value="EUR"/>
+            <item value="HKD"/>
+            <item value="RUB"/>
+          </model>
+        </properties>
+      </component>
+      <component id="abcb9" class="javax.swing.JTextField" binding="amount1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="674c9" class="javax.swing.JTextField" binding="amount2">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="99b8f" class="javax.swing.JLabel" binding="title2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Enter Amount"/>
+        </properties>
+      </component>
+      <component id="dcf6f" class="javax.swing.JButton" binding="CONVERTButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CONVERT"/>
+        </properties>
+      </component>
+      <component id="354fa" class="javax.swing.JLabel" binding="title3">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Converted Amount"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
